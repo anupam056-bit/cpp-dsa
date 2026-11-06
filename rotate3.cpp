@@ -6,8 +6,8 @@ void rotate3P(int *a, int *b, int *c) {
   *a = *b;
   *b = *c;
   *c = temp;
-  cout << "After rotaion inside rotate3P function, a=" << a << ", b=" << b
-       << ",c=" << c << ".\n";
+  cout << "After rotaion inside rotate3P function, a=" << *a << ", b=" << *b
+       << ",c=" << *c << ".\n";
 }
 
 void rotate3R(int &a, int &b, int &c) {
